@@ -1,0 +1,25 @@
+✅ Day 1 Summary – August 1st
+
+Today I began my programming fundamentals challenge
+
+📜 Completed:
+- "Introduction to C++" course on SoloLearn
+- Earned a certificate of completion
+
+🧠 Topics I studied and practiced:
+- Variables and data types
+- if statements
+- for loops
+- switch-case
+- foreach loop
+- Arrays
+- Introduction to pointers
+- Dynamic memory allocation
+
+🧪 Practice:
+- Solved simple quizzes to reinforce my understanding
+
+🎯 Goal:
+Start building a strong foundation in core programming concepts using C++.
+
+🚀 Progress is being tracked daily and shared on GitHub throughout August
