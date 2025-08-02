@@ -1,0 +1,44 @@
+Problem Title: List Items with Proper English (Using "and" before the last item)
+
+Description:
+-------------
+This program asks the user how many items they want to enter and then takes each item as input one by one.
+It builds a properly formatted English list:
+- Commas are added between items.
+- The word "and" is used before the last item, as done in natural English speech and writing.
+
+Example:
+---------
+Input:
+How many item will you enter: 3
+Add the item number 1 : apple
+Add the item number 2 : banana
+Add the item number 3 : strawberry
+
+Output:
+apple, banana, and strawberry
+
+Time Complexity:
+----------------
+O(n)
+Where 'n' is the number of items. Each item is read and added to the string once.
+
+Space Complexity:
+------------------
+O(n)
+All items are stored in a single string that grows as the number of items increases.
+
+Limitations:
+------------
+- The string concatenation inside the loop may cause performance issues for very large input sizes due to repeated copying (can behave like O(n^2) in rare worst cases).
+- No error handling for non-string inputs.
+- The list is printed at the end only (no real-time list building or editing).
+
+Possible Improvements (Suggestions for Later):
+-----------------------------------------------
+1. Use a dynamic array (vector<string>) to store items, then join them afterward.
+2. Add error handling for invalid input types.
+3. Allow the user to remove or edit items before final output.
+4. Provide an option to output the list in other formats (e.g., bullet points).
+5. Store the list in a text file.
+
